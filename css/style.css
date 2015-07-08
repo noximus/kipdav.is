@@ -58,4 +58,12 @@ body{
 	float: left;
 	margin: 0;
 	padding: 0;
+	opacity: .5;
+	-webkit-transition: opacity .2s;
+	-webkit-transition-timing-function: ease-in; /* Safari and Chrome */
+	transition-timing: opacity .2s;
+    transition-timing-function: ease-in;
+}
+.gallery:hover{
+	opacity: 1;
 }

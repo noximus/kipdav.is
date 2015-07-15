@@ -10,6 +10,12 @@
 body{
 	max-width: 1680px;
 }
+button.close span{
+	font-style: normal;
+}
+.modal-header{
+	border: none;
+}
 .navbar-default{
 	background: none;
 	box-shadow: 0px 80px 80px white;
@@ -21,12 +27,21 @@ body{
 .kip{
 	max-height: 150px;
 	z-index: 1000;
-	position: absolute;
+	position: relative;
+	float: left;
 	top: 0;
-	width: 100%;
+	width: auto;
 	height: 150px;
 	display: block;
-	max-width: 1680px;
+	/*max-width: 1680px;*/
+}
+.vidCover{
+	height: 150px;
+	width: 408px;
+	background: white;
+	z-index: 1000;
+	float: left;
+	position: relative;
 }
 .heroVid{
 	z-index: 3;
@@ -49,7 +64,7 @@ body{
 }
 .divide{
 	width: 100%;
-	height: 50px;
+	height: 60px;
 }
 .title{
 	font-size: 30px;
@@ -57,16 +72,36 @@ body{
 .content:hover{
 	cursor: pointer;
 }
+.content{
+	height: auto;
+	width: auto;
+	/*overflow: hidden;*/
+}
+.modal-body img{
+	display: block;
+	margin: auto;
+}
+.modal-backdrop.in{
+	opacity: .8;
+}
 .gallery{
 	display: inline-block;
 	float: left;
 	margin: 0;
+	position: relative;
 	padding: 0;
 	opacity: .5;
-	-webkit-transition: opacity .2s;
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+	-webkit-transition: opacity .1s;
 	-webkit-transition-timing-function: ease-in; /* Safari and Chrome */
-	transition-timing: opacity .2s;
+	transition-timing: opacity .1s;
     transition-timing-function: ease-in;
+    background-image: url("../tv.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 .gallery:hover{
 	opacity: 1;

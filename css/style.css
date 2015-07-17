@@ -80,11 +80,13 @@ button.close span{
 .modal-body img{
 	display: block;
 	margin: auto;
+	max-width: 500px;
+	height: auto;
 }
 .modal-backdrop.in{
 	opacity: .8;
 }
-.gallery{
+.gallery img, .gallery video{
 	display: inline-block;
 	float: left;
 	margin: 0;
@@ -98,7 +100,7 @@ button.close span{
 	-webkit-transition-timing-function: ease-in; /* Safari and Chrome */
 	transition-timing: opacity .1s;
     transition-timing-function: ease-in;
-    background-image: url("../tv.jpg");
+    /*background-image: url("../tv.jpg");*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

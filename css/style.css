@@ -37,6 +37,26 @@ button.close span{
 	display: block;
 	border-right: 1000px solid white;
 }
+@media screen and (min-width:640px){
+	.kip{
+		width: 1600px;
+	}
+}
+@media screen and (min-width:768px){
+	.kip{
+		width: 1600px;
+	}
+}
+@media screen and (min-width:992px){
+	.kip{
+		width: 1700px;
+	}
+}
+@media screen and (min-width:1200px){
+	.kip{
+		width: 1761px;
+	}
+}
 .vidCover{
 	height: 150px;
 	width: 408px;

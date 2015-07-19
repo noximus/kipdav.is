@@ -58,14 +58,7 @@ button.close span{
 		width: 1761px;
 	}
 }
-.vidCover{
-	height: 150px;
-	width: 408px;
-	background: white;
-	z-index: 1000;
-	float: left;
-	position: relative;
-}
+
 .heroVid{
 	z-index: 3;
 	display: block;

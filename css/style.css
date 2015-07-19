@@ -9,6 +9,8 @@
 }
 body{
 	max-width: 1680px;
+	margin: 0 auto;
+	/*overflow: hidden;*/
 }
 button.close span{
 	font-style: normal;
@@ -33,7 +35,7 @@ button.close span{
 	width: auto;
 	height: 150px;
 	display: block;
-	/*max-width: 1680px;*/
+	border-right: 1000px solid white;
 }
 .vidCover{
 	height: 150px;
